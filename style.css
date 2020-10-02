@@ -1,0 +1,187 @@
+/*
+ * This css file includes default styles for use across my sites
+ *
+ */
+/*---------------------------------------------
+					Common CSS
+-----------------------------------------------*/
+body {
+    font-family: "-apple-system", "Helvetica Neue", Helvetica, "Open Sans",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 17px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "-apple-system", "Helvetica Neue", Helvetica, "Roboto",
+      sans-serif;
+  }
+  h1 {
+    font-size: 2em;
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 1.764em;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.412em;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: inherit;
+    font-weight: bold;
+  }
+  h2,
+  h3,
+  h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  ul,
+  ol {
+    padding-left: 0px;
+    margin: 0;
+  }
+  p,
+  li {
+    font-size: inherit;
+    line-height: 1.7em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+  }
+  .subtitle {
+    color: var(--subtitle-text);
+    font-style: italic;
+  }
+  
+  a {
+    color: var(--blue-links);
+  }
+  a:hover {
+    color: var(--blue-links);
+    text-decoration: underline;
+  }
+  a.grey-links {
+    color: inherit;
+  }
+  a.grey-links:hover {
+    color: var(--highlight-dark);
+  }
+  .section-title {
+    margin-bottom: 0px;
+  }
+  .section-title h2 {
+    font-size: 1.65em;
+    font-weight: 500;
+  }
+  .page-title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  section {
+    padding: 40px 0;
+  }
+  /* // Single section forms part of a page */
+  .sub-section-title {
+    margin-bottom: 30px;
+  }
+  section.sub-section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  /*--
+      social icons
+  --*/
+  .social-icons {
+    margin-top: 40px;
+  }
+  .social-icons li {
+    display: inline-block;
+    margin: 0 6px;
+  }
+  .social-icons a {
+    display: inline-block;
+  }
+  .social-icons i {
+    color: #2c2c2c;
+    margin-right: 25px;
+    font-size: 25px;
+  }
+  .center-text {
+    text-align: center;
+  }
+  
+  /*--
+   Image modifiers start
+  --*/
+  .caption{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    margin-left: 2em
+  }
+  
+  .fill-height {
+    height: 100%;
+  }
+  
+  img.image-fit {
+    width: 100%;
+  }
+  
+  div.center-image-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  img.img-page-icon {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  
+  .image.blog {
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .center-block {
+      margin-left: auto;
+      margin-right: auto;
+      float: None;
+  }
+  
+  /*--
+      Code start
+  --*/
+  pre{
+    font-size: 0.8em;
+    line-height: inherit;
+  }
+  pre.highlight {
+    border-radius: 0px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+  
+  .button-wrapper {
+    width: 100%;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 25px;
+  }
+  
+  button.code-toggle {
+    border: None;
+    background-color: inherit;
+    padding: 2px;
+  }
+  
