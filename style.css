@@ -8,13 +8,10 @@
 /*--
 	Page width & Bootstrap modifers start
 --*/
+@import "colours.css";
+
 html {
   overflow-y: scroll;
-}
-@media(min-width: 1040px) {
-  .container {
-    max-width: 1040px;
-  }
 }
 
 body {
@@ -33,11 +30,11 @@ body {
       sans-serif;
   }
   h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 500;
   }
   h2 {
-    font-size: 1.764em;
+    font-size: 1.664em;
     font-weight: 500;
   }
   h3 {
@@ -92,7 +89,7 @@ body {
     font-weight: 500;
   }
   .page-title {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     text-align: center;
   }
   section {
@@ -102,7 +99,7 @@ body {
   .sub-section-title {
     margin-bottom: 30px;
   }
-  section.sub-section {
+  section.no-padding {
     padding-top: 0px;
     padding-bottom: 0px;
   }
