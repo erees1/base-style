@@ -89,7 +89,7 @@ body {
     font-weight: 500;
   }
   .page-title {
-    /* margin-bottom: 30px; */
+    margin-bottom: 25px;
     text-align: center;
   }
   section {
@@ -152,7 +152,6 @@ body {
     width: 20%;
     margin-bottom: 20px;
   }
-  
   .image.blog {
     text-align: center;
     display: block;
