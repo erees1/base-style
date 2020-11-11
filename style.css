@@ -192,4 +192,9 @@ body {
     background-color: inherit;
     padding: 2px;
   }
+  .btn-xs {
+    padding: .1rem .3rem;
+    font-size: .72rem;
+    line-height: 1.1;
+  }
   
